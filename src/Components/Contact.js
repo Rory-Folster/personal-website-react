@@ -13,10 +13,16 @@ export const Contact = () => {
       .then((result) => {
           console.log(result.text);
           form.current.reset();
+          document.getElementById("email-message").innerHTML = "Message sent. Thank you"
+          emailMessage()
       }, (error) => {
           console.log(error.text);
       });
   };
+
+  function emailMessage(){
+    setTimeout(function(){document.getElementById("email-message").innerHTML = ""}, 6000)
+  }
 
   return (
     <div className='contact-form'>
@@ -28,6 +34,7 @@ export const Contact = () => {
             <label>Message</label>
             <textarea name="message" required/>
             <input className='contact-form-submit-btn' autocomplete="chrome-off" type="submit" value="Send" />
+            <label id='email-message'></label>
         </form>
     </div>
   );

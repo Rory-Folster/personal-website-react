@@ -19,9 +19,17 @@
     position: relative;
     font-size: 13px
 }
+
 .home-body section{
     padding-bottom: 80px;
 }
+
+@media(max-width: 768px){
+    .home-body section{
+        padding-bottom: 10px;
+    }
+  }
+
 
 .home-body-note{
     font-size: 17px;
@@ -199,11 +207,11 @@
 }
 
 .learning-program-img figure{
-    margin-right: 30px;
-    width: 140px;
-    margin: 0 auto;
-    margin-left: 20px;
-    padding-top: 10px;
+    width: 150px;
+    margin: 20 auto;
+    margin-left: 0px;
+    padding: 0px;
+    
 }
 
 .learning-program-img figure{

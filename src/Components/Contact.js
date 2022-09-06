@@ -20,7 +20,7 @@ export const Contact = () => {
 
   function emailMessage(){
     document.getElementById("email-message").innerHTML = "Message sent. Thank you"
-    setTimeout(function(){document.getElementById("email-message").innerHTML = ""}, 6000)
+    setTimeout(function(){document.getElementById("email-message").innerHTML = ""}, 3000)
   }
 
   return (

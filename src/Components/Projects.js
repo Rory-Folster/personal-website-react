@@ -35,7 +35,7 @@ function ProjectDetails() {
                 <p><span>Date: </span>{project.date}</p>
             </div>
             </Link>
-       )) : (<Spinner animation="border" role="status" className='spinner' style={{ justifyContent:'center', textalign: 'center'}}>
+       )) : (<Spinner animation="border" role="status">
             <span className="visually-hidden">Loading...</span>
             </Spinner>)}
     </div>

@@ -275,9 +275,3 @@
         font-size:20px;
     }
   }
-
-.spinner {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}

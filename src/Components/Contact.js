@@ -11,9 +11,7 @@ export const Contact = () => {
 
     emailjs.sendForm('service_fds39gq', 'template_9pqwwdo', form.current, '7WtyRII418E4slxJe')
       .then((result) => {
-          console.log(result.text);
           form.current.reset();
-          document.getElementById("email-message").innerHTML = "Message sent. Thank you"
           emailMessage()
       }, (error) => {
           console.log(error.text);
@@ -21,6 +19,7 @@ export const Contact = () => {
   };
 
   function emailMessage(){
+    document.getElementById("email-message").innerHTML = "Message sent. Thank you"
     setTimeout(function(){document.getElementById("email-message").innerHTML = ""}, 6000)
   }
 

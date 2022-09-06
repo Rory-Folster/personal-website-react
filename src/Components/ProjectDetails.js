@@ -24,7 +24,7 @@ function ProjectDetails() {
   }, [])
 
   return (
-    <div>
+    <div className="project-page-title">
       {loading ? <div className="project-details">
         <h1 className="project-details-title"><u>{project.title}</u></h1>
         <img src={project.img} alt="project-image" className="project-details-image" />

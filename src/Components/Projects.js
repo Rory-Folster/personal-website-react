@@ -23,7 +23,7 @@ function ProjectDetails() {
     }, [])
 
   return (
-    <div>
+    <div className="project-page-title">
         <div className="project-page-title" >
             <h1><u>Completed Projects</u></h1>
         </div>

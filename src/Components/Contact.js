@@ -26,14 +26,14 @@ export const Contact = () => {
 
   return (
     <div className='contact-form'>
-        <form ref={form} onSubmit={sendEmail} autocomplete="chrome-off">
+        <form ref={form} onSubmit={sendEmail} autoComplete="chrome-off">
             <label>Name</label>
-            <input id='' type="text" name="user_name" autocomplete="chrome-off" required/>
+            <input id='' type="text" name="user_name" autoComplete="chrome-off" required/>
             <label>Email</label>
-            <input type="email" name="user_email" autocomplete="chrome-off" required/>
+            <input type="email" name="user_email" autoComplete="chrome-off" required/>
             <label>Message</label>
             <textarea name="message" required/>
-            <input className='contact-form-submit-btn' autocomplete="chrome-off" type="submit" value="Send" />
+            <input className='contact-form-submit-btn' autoComplete="chrome-off" type="submit" value="Send" />
             <label id='email-message'></label>
         </form>
     </div>

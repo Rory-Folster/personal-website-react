@@ -28,7 +28,7 @@ function ProjectDetails() {
             <h1><u>Completed Projects</u></h1>
         </div>
        {loading ? projects.map((project) => (
-        <Link to={project._id} style={{ textDecoration: 'none' }} data-aos="fade-up">
+        <Link to={project._id} key={project._id} style={{ textDecoration: 'none' }} data-aos="fade-up">
             <div className="project-entries">
                 <h3 className="project-title">{project.title}</h3>
                 <p className="project-p"><span>Class: </span>{project.class}</p>

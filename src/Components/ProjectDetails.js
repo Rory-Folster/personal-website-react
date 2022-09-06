@@ -21,17 +21,17 @@ function ProjectDetails() {
   useEffect(() => {
     AOS.init({ duration: 2000 });
     FetchProject();
-  }, [])
+  })
 
   return (
     <div className="project-page-title">
       {loading ? <div className="project-details">
         <h1 className="project-details-title"><u>{project.title}</u></h1>
-        <img src={project.img} alt="project-image" className="project-details-image" />
+        <img src={project.img} alt="project" className="project-details-image" />
         <p className="project-details-p">Class: {project.class}</p>
         <p className="project-details-p">Completion Date: {project.date}</p>
         <h2 className="project-details-description">{project.description}</h2>
-        <p className="project-details-link-p">Link to project:</p><a href={project.linkToProj} target="_blank" className="project-details-a">{project.linkToProj}</a>
+        <p className="project-details-link-p">Link to project:</p><a href={project.linkToProj} target="_blank" rel="noreferrer" className="project-details-a">{project.linkToProj}</a>
       </div> : <Spinner animation="border" role="status">
         <span className="visually-hidden">Loading...</span>
       </Spinner>}

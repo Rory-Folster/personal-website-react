@@ -8,15 +8,15 @@ function MainNav() {
   return (
     <Navbar bg="dark" variant="dark">
         <Container>
-        <LinkContainer to="/">
-          <Navbar.Brand><span className='logo-span'>Rory's</span> Developer Website</Navbar.Brand>
+          <LinkContainer to="/">
+            <Navbar.Brand><span className='logo-span'>Rory's</span> Developer Website</Navbar.Brand>
           </LinkContainer>
           <Nav className="justify-content-end">
             <LinkContainer to="/">
-            <Nav.Link>Home</Nav.Link>
+              <Nav.Link>Home</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/projects">
-            <Nav.Link>Projects</Nav.Link>
+              <Nav.Link>Projects</Nav.Link>
             </LinkContainer>
           </Nav>
         </Container>

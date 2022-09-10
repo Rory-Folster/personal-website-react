@@ -7,7 +7,7 @@ import 'aos/dist/aos.css';
 function Home() {
 
   useEffect(() => {
-    AOS.init({duration: 1250});
+    AOS.init({duration: 1100});
   })
 
   return (
@@ -15,15 +15,18 @@ function Home() {
     <section data-aos="fade-up">
         <h1 className='home-h1'><u>About Me</u></h1>
         <p >I am a 23 year old Software Development Student from New Zealand.</p>
-        <p>I am currently in my final full semester,  my Bachelors of I.T, with a major in Software Development.</p>
-        <p>I am very passionate about software development and web developement, and I am looking forward to increasing my skills to a business level.</p>
+        <p>I am currently in my final full semester, of my Bachelors of I.T, with a major in Software Development at <a href='https://www.nmit.ac.nz/' target="_blank" rel="noreferrer">Nelson Marlborough Institute of Technology.</a></p>
+        <p>Once I have completed 2022's classes, I will have 2 classes remaining; Software Development 702, and my final project class.</p>
+        <p>My plan for 2023 is to explore employment in software development or web developement, and complete the remaining classes for my Bachelors degree.</p>
         <p className='bottom-p'>Please see the 'Contact Me' section to leave me some feedback!</p>
     </section>
     <section data-aos="fade-up">
-      <h1 className='home-h1'><u>About this page</u></h1>
-      <p>This website was created from scratch, using <u>MongoDB</u>, <u>Express</u>, <u>React</u> and <u>Node.js</u></p>
-      <p>The 'projects' section of this website, is pulling data from my MongoDB database and creating a button for each entry</p>
-      <p>I then use React's 'useParams' function to fetch more information about the individual entry.</p>
+      <h1 className='home-h1'><u>Why did I choose to learn coding?</u></h1>
+      <p>I really started to get passionate about Software Developement after completing a Certification in Automotive Engineering and finding out it wasn't what I wanted to do for a living.</p>
+      <p>I have always had a computer, and been interested by Software, particularly Gaming and how everything works behind the scenes.</p>
+      <p>After building my first gaming computer and realising that computers aren't as complex and scary as I first thought, I started looking at other areas of computing that I haven't really thought about much.</p>
+      <p>Thus, leading me to start learning about surface level coding, such as HTML and CSS. I found these languages very fun and creating websites was satisfying to me, but I wanted to learn more.</p>
+      <p>Ultimately, I decided to take advantage of the Institute in my town and start my journey on obtaining a Bachelors Degree in Software Developement.</p>
     </section>
     {/* <section>
       <h1 className='home-h1'><u>Goals Of Mine</u></h1>
@@ -48,6 +51,58 @@ function Home() {
           <figcaption>Next.js</figcaption>
         </figure>
       </div>
+    </section>
+    <section>
+    <h1 className='home-h1' data-aos="fade-right"><u>What I Know</u></h1>
+    <h2 data-aos="fade-right"><u>Web</u></h2>
+    <div className='learning-program-img'>
+    <figure className='learning-program-img-img' data-aos="fade-left">
+      <img className='learning-program-img' alt="html-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"/>
+      <figcaption>HTML5</figcaption>
+    </figure>
+    <figure className='learning-program-img-img' data-aos="fade-left">
+      <img className='learning-program-img' alt="css" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+      <figcaption>CSS3</figcaption>
+    </figure>
+    <figure className='learning-program-img-img' data-aos="fade-left">
+      <img className='learning-program-img' alt="js" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+      <figcaption>JavaScript</figcaption>
+    </figure>
+    <figure className='learning-program-img-img' data-aos="fade-left">
+      <img className='learning-program-img' alt="react" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"/>
+      <figcaption>React</figcaption>
+    </figure>
+    <h2 data-aos="fade-right"><u>Software</u></h2>
+    <figure className='learning-program-img-img' data-aos="fade-left">
+      <img className='learning-program-img' alt="c#" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"/>
+      <figcaption>C#</figcaption>
+    </figure>
+    <figure className='learning-program-img-img' data-aos="fade-left">
+      <img className='learning-program-img' alt="python" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"/>
+      <figcaption>Python</figcaption>
+    </figure>
+    <h2 data-aos="fade-right"><u>Database</u></h2>
+    <figure className='learning-program-img-img' data-aos="fade-left">
+      <img className='learning-program-img' alt="git" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
+      <figcaption>Git</figcaption>
+    </figure>
+    <figure className='learning-program-img-img' data-aos="fade-left">
+      <img className='learning-program-img' alt="node"src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" />
+      <figcaption>Node.js</figcaption>
+    </figure>
+    <figure className='learning-program-img-img' data-aos="fade-left">
+      <img className='learning-program-img' alt="mongo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" />
+      <figcaption>MongoDB</figcaption>
+    </figure>
+    <figure className='learning-program-img-img' data-aos="fade-left">
+      <img className='learning-program-img' alt="mysql" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" />
+      <figcaption>MySQL</figcaption>
+    </figure>
+    <figure className='learning-program-img-img' data-aos="fade-left">
+      <img className='learning-program-img' alt="sqlserver" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" />
+      <figcaption> SQL Server</figcaption>
+    </figure>
+    </div>
     </section>
     <section data-aos="fade-right">
       <h1 className='home-h1'><u>Contact Me</u></h1>

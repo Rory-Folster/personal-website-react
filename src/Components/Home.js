@@ -34,19 +34,19 @@ function Home() {
     <section data-aos="fade-right">
       <h1 className='home-h1'><u>Programming Languages I Am Focused On</u></h1>
       <div className='learning-program-img'>
-        <figure className='learning-program-img-img'>
+        <figure className='learning-program-img-img' data-aos="fade-right">
           <img className='learning-program-img' alt='python-img' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
           <figcaption>Python</figcaption>
         </figure>
-        <figure className='learning-program-img-img'>
+        <figure className='learning-program-img-img' data-aos="fade-right">
           <img className='learning-program-img' alt='react-img' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
           <figcaption>React</figcaption>
         </figure>
-        <figure className='learning-program-img-img'>
+        <figure className='learning-program-img-img' data-aos="fade-right">
           <img className='learning-program-img' alt='msql-img' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" />
           <figcaption>MySQL</figcaption>
         </figure>
-        <figure className='learning-program-img-img'>
+        <figure className='learning-program-img-img' data-aos="fade-right">
           <img className='learning-program-img' alt='next.js-img' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-line.svg" />
           <figcaption>Next.js</figcaption>
         </figure>

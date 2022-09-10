@@ -52,57 +52,55 @@ function Home() {
         </figure>
       </div>
     </section>
-    <section>
+    <section className='learning-program-img'>
     <h1 className='home-h1' data-aos="fade-right"><u>What I Know</u></h1>
     <h2 data-aos="fade-right"><u>Web</u></h2>
-    <div className='learning-program-img'>
-    <figure className='learning-program-img-img' data-aos="fade-left">
+    <figure className='learning-program-img-img' data-aos="fade-right">
       <img className='learning-program-img' alt="html-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"/>
       <figcaption>HTML5</figcaption>
     </figure>
-    <figure className='learning-program-img-img' data-aos="fade-left">
+    <figure className='learning-program-img-img' data-aos="fade-right">
       <img className='learning-program-img' alt="css" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
       <figcaption>CSS3</figcaption>
     </figure>
-    <figure className='learning-program-img-img' data-aos="fade-left">
+    <figure className='learning-program-img-img' data-aos="fade-right">
       <img className='learning-program-img' alt="js" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
       <figcaption>JavaScript</figcaption>
     </figure>
-    <figure className='learning-program-img-img' data-aos="fade-left">
+    <figure className='learning-program-img-img' data-aos="fade-right">
       <img className='learning-program-img' alt="react" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"/>
       <figcaption>React</figcaption>
     </figure>
     <h2 data-aos="fade-right"><u>Software</u></h2>
-    <figure className='learning-program-img-img' data-aos="fade-left">
+    <figure className='learning-program-img-img' data-aos="fade-right">
       <img className='learning-program-img' alt="c#" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"/>
       <figcaption>C#</figcaption>
     </figure>
-    <figure className='learning-program-img-img' data-aos="fade-left">
+    <figure className='learning-program-img-img' data-aos="fade-right">
       <img className='learning-program-img' alt="python" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"/>
       <figcaption>Python</figcaption>
     </figure>
     <h2 data-aos="fade-right"><u>Database</u></h2>
-    <figure className='learning-program-img-img' data-aos="fade-left">
+    <figure className='learning-program-img-img' data-aos="fade-right">
       <img className='learning-program-img' alt="git" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
       <figcaption>Git</figcaption>
     </figure>
-    <figure className='learning-program-img-img' data-aos="fade-left">
+    <figure className='learning-program-img-img' data-aos="fade-right">
       <img className='learning-program-img' alt="node"src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" />
       <figcaption>Node.js</figcaption>
     </figure>
-    <figure className='learning-program-img-img' data-aos="fade-left">
+    <figure className='learning-program-img-img' data-aos="fade-right">
       <img className='learning-program-img' alt="mongo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" />
       <figcaption>MongoDB</figcaption>
     </figure>
-    <figure className='learning-program-img-img' data-aos="fade-left">
+    <figure className='learning-program-img-img' data-aos="fade-right">
       <img className='learning-program-img' alt="mysql" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" />
       <figcaption>MySQL</figcaption>
     </figure>
-    <figure className='learning-program-img-img' data-aos="fade-left">
+    <figure className='learning-program-img-img' data-aos="fade-right">
       <img className='learning-program-img' alt="sqlserver" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" />
       <figcaption> SQL Server</figcaption>
     </figure>
-    </div>
     </section>
     <section data-aos="fade-right">
       <h1 className='home-h1'><u>Contact Me</u></h1>

@@ -20,14 +20,14 @@ function Home() {
         <p>My plan for 2023 is to explore employment in software development or web developement, and complete the remaining classes for my Bachelors degree.</p>
         <p className='bottom-p'>Please see the 'Contact Me' section to leave me some feedback!</p>
     </section>
-    <section data-aos="fade-up">
+    {/* <section data-aos="fade-up">
       <h1 className='home-h1'><u>Why did I choose to learn coding?</u></h1>
       <p>I really started to get passionate about Software Developement after completing a Certification in Automotive Engineering and finding out it wasn't what I wanted to do for a living.</p>
       <p>I have always had a computer, and been interested by Software, particularly Gaming and how everything works behind the scenes.</p>
       <p>After building my first gaming computer and realising that computers aren't as complex and scary as I first thought, I started looking at other areas of computing that I haven't really thought about much.</p>
       <p>Thus, leading me to start learning about surface level coding, such as HTML and CSS. I found these languages very fun and creating websites was satisfying to me, but I wanted to learn more.</p>
       <p>Ultimately, I decided to take advantage of the Institute in my town and start my journey on obtaining a Bachelors Degree in Software Developement.</p>
-    </section>
+    </section> */}
     {/* <section>
       <h1 className='home-h1'><u>Goals Of Mine</u></h1>
     </section> */}

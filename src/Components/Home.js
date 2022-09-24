@@ -82,10 +82,6 @@ function Home() {
     </figure>
     <h2 data-aos="fade-right"><u>Database</u></h2>
     <figure className='learning-program-img-img' data-aos="fade-right">
-      <img className='learning-program-img' alt="git" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
-      <figcaption>Git</figcaption>
-    </figure>
-    <figure className='learning-program-img-img' data-aos="fade-right">
       <img className='learning-program-img' alt="node"src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" />
       <figcaption>Node.js</figcaption>
     </figure>
@@ -100,6 +96,11 @@ function Home() {
     <figure className='learning-program-img-img' data-aos="fade-right">
       <img className='learning-program-img' alt="sqlserver" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" />
       <figcaption> SQL Server</figcaption>
+    </figure>
+    <h2 data-aos="fade-right"><u>Miscellaneous</u></h2>
+    <figure className='learning-program-img-img' data-aos="fade-right">
+      <img className='learning-program-img' alt="git" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
+      <figcaption>Git</figcaption>
     </figure>
     </section>
     <section data-aos="fade-right">

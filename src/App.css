@@ -221,10 +221,13 @@
     margin-top: 10px;
     text-align: center;
     font-size: 20px;
+    
 }
 
 .learning-program-img img {
     max-width: 130px;
+    padding: 5px;
+    margin-top: 10px;
 }
 
 .learning-program-img figure{
@@ -237,6 +240,11 @@
 
 .learning-program-img figure{
     display: inline-block;
+}
+
+.learning-img-header {
+    padding: 15px;
+    font-size: 30px;
 }
 
 .home-social-media-btns input:hover {

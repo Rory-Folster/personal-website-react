@@ -55,7 +55,7 @@ function Home() {
     </section>
     <section className='learning-program-img'>
     <h1 className='home-h1' data-aos="fade-right"><u>What I Know</u></h1>
-    <h2 data-aos="fade-right"><u>Web</u></h2>
+    <h2 className='learning-img-header' data-aos="fade-right"><u>Web</u></h2>
     <figure className='learning-program-img-img' data-aos="fade-right">
       <img className='learning-program-img' alt="html-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"/>
       <figcaption>HTML5</figcaption>
@@ -72,7 +72,7 @@ function Home() {
       <img className='learning-program-img' alt="react" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"/>
       <figcaption>React</figcaption>
     </figure>
-    <h2 data-aos="fade-right"><u>Software</u></h2>
+    <h2 className='learning-img-header' data-aos="fade-right"><u>Software</u></h2>
     <figure className='learning-program-img-img' data-aos="fade-right">
       <img className='learning-program-img' alt="c#" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"/>
       <figcaption>C#</figcaption>
@@ -81,7 +81,7 @@ function Home() {
       <img className='learning-program-img' alt="python" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"/>
       <figcaption>Python</figcaption>
     </figure>
-    <h2 data-aos="fade-right"><u>Database</u></h2>
+    <h2 className='learning-img-header' data-aos="fade-right"><u>Database</u></h2>
     <figure className='learning-program-img-img' data-aos="fade-right">
       <img className='learning-program-img' alt="node"src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" />
       <figcaption>Node.js</figcaption>
@@ -98,7 +98,7 @@ function Home() {
       <img className='learning-program-img' alt="sqlserver" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" />
       <figcaption> SQL Server</figcaption>
     </figure>
-    <h2 data-aos="fade-right"><u>Miscellaneous</u></h2>
+    <h2 className='learning-img-header' data-aos="fade-right"><u>Miscellaneous</u></h2>
     <figure className='learning-program-img-img' data-aos="fade-right">
       <img className='learning-program-img' alt="git" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
       <figcaption>Git</figcaption>

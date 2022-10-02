@@ -17,6 +17,10 @@ function ProjectDetails() {
         setLoading(true)
     }
 
+    function FukHeroku() {
+        setTimeout(function(){document.getElementById('heroku').innerHTML = "If you see this message, I have ran out of time on Heroku. Student life."}, 6000)
+    }
+
     useEffect(() => {
         AOS.init({duration: 2000});
         FetchProjects();

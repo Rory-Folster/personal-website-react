@@ -1,5 +1,6 @@
 import '../App.css';
 import React, { useState, useEffect } from 'react';
+import { MDBCarousel,MDBCarouselItem } from 'mdb-react-ui-kit';
 import Spinner from 'react-bootstrap/Spinner';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -27,7 +28,26 @@ function ProjectDetails() {
     <div className="project-page-title">
       {loading ? <div className="project-details">
         <h1 className="project-details-title"><u>{project.title}</u></h1>
-        <img src={project.img} alt="project" className="project-details-image" />
+        <MDBCarousel showControls showIndicators>
+      <MDBCarouselItem width={900} height={600}
+        className='w-100 d-block'
+        itemId={1}
+        src={project.img}
+        alt=''
+      />
+      <MDBCarouselItem width={900} height={600}
+        className='w-100 d-block'
+        itemId={2}
+        src={project.img2}
+        alt=''
+      />
+      <MDBCarouselItem width={900} height={600}
+        className='w-100 d-block'
+        itemId={3}
+        src={project.img3}
+        alt=''
+      />
+    </MDBCarousel>
         <p className="project-details-p">Class: {project.class}</p>
         <p className="project-details-p">Completion Date: {project.date}</p>
         <h2 className="project-details-description">{project.description}</h2>

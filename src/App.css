@@ -271,6 +271,7 @@
     margin-top: 10px;
     margin-bottom: 10px;
     width: 500px;
+    text-align: center;
 }
 
 .contact-form textarea{
@@ -303,11 +304,4 @@
         align-items: center;
         font-size:20px;
     }
-  }
-
-.spinner {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }

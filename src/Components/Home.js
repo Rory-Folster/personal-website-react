@@ -32,7 +32,7 @@ function Home() {
     {/* <section>
       <h1 className='home-h1'><u>Goals Of Mine</u></h1>
     </section> */}
-    <section data-aos="fade-right">
+    {/* <section data-aos="fade-right">
       <h1 className='home-h1'><u>Programming Languages I Am Focused On</u></h1>
       <div className='learning-program-img'>
         <figure className='learning-program-img-img' data-aos="fade-right">
@@ -52,7 +52,7 @@ function Home() {
           <figcaption>Next.js</figcaption>
         </figure>
       </div>
-    </section>
+    </section> */}
     <section className='learning-program-img'>
     <h1 className='home-h1' data-aos="fade-right"><u>What I Know</u></h1>
     <h2 className='learning-img-header' data-aos="fade-right"><u>Web</u></h2>

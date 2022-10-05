@@ -16,9 +16,9 @@ function Home() {
     <section data-aos="fade-up">
         <h1 className='home-h1'><u>About Me</u></h1>
         <p >I am a 23 year old Software Development Student from New Zealand.</p>
-        <p>I am currently in my final full semester, of my Bachelors of I.T, with a major in Software development at <a href='https://www.nmit.ac.nz/' target="_blank" rel="noreferrer">Nelson Marlborough Institute of Technology.</a></p>
-        <p>Once I have completed 2022's classes, I will have 2 classes remaining; Software Development 702, and my final project class.</p>
-        <p>My plan for 2023 is to explore employment in software development or web developement, and complete the remaining classes for my Bachelors degree.</p>
+        <p>I am currently in my final full semester, of my Bachelor's of I.T, majoring in Software Development at <a href='https://www.nmit.ac.nz/' target="_blank" rel="noreferrer">Nelson Marlborough Institute of Technology.</a></p>
+        <p>Once I have completed 2022's classes, I will have 2 classes remaining; Software Development 702, and my final project.</p>
+        <p>My plan for 2023 is to explore employment in software development or web developement, and complete the remaining classes for my bachelor's degree.</p>
         <p className='bottom-p'>Please see the 'Contact Me' section to leave me some feedback!</p>
     </section>
     {/* <section data-aos="fade-up">

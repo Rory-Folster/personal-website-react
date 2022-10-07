@@ -29,19 +29,19 @@ function ProjectDetails() {
       {loading ? <div className="project-details">
         <h1 className="project-details-title"><u>{project.title}</u></h1>
         <MDBCarousel showControls showIndicators>
-      <MDBCarouselItem width={900} height={500}
+      <MDBCarouselItem width={900} height={700}
         className='w-100 d-block'
         itemId={1}
         src={project.img}
         alt=''
       />
-      <MDBCarouselItem width={900} height={500}
+      <MDBCarouselItem width={900} height={700}
         className='w-100 d-block'
         itemId={2}
         src={project.img2}
         alt=''
       />
-      <MDBCarouselItem width={900} height={500}
+      <MDBCarouselItem width={900} height={700}
         className='w-100 d-block'
         itemId={3}
         src={project.img3}

@@ -115,7 +115,7 @@ function Home() {
       <div className='home-social-media-btns'>
         <a href="https://www.facebook.com/roryfolster/" target="_blank" rel="noreferrer"><input type="image" src="https://img.icons8.com/ios-glyphs/344/facebook-new.png" alt='facebook-img'/></a>
         <a href="https://twitter.com/rorukzz" target="_blank" rel="noreferrer"><input type="image" src="https://img.icons8.com/ios-glyphs/344/twitter--v1.png" alt='twitter-img'/></a>
-        <a href="https://github.com/Rory-Folster?tab=repositories" target="_blank" rel="noreferrer"><input type="image" src="https://img.icons8.com/ios-glyphs/344/github.png" alt='github-img'/></a>
+        <a href="https://github.com/Rory-Folster" target="_blank" rel="noreferrer"><input type="image" src="https://img.icons8.com/ios-glyphs/344/github.png" alt='github-img'/></a>
         <a href="https://www.linkedin.com/in/rory-folster-3904991b3/" target="_blank" rel="noreferrer"><input type="image" src="https://img.icons8.com/ios-glyphs/344/linkedin.png" alt='linkedin-img'/></a>
       </div>
     </section>
